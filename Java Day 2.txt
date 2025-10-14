@@ -1,0 +1,120 @@
+Loop statement
+Question 1
+Print the numbers from 1 to n
+code:
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		for(int i = 1;i<=n; i++){
+		    System.out.println(i);
+		}
+	}
+}
+
+output:
+10
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+
+question 2
+Sum of first n natural numbers
+Code:
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		int sum = 0;
+		for(int i = 1;i<=n; i++){
+		    sum=sum+i;
+		}
+		System.out.println(sum);
+	}
+}
+
+Output:
+10
+55
+
+question 3
+Print the even number fro 1 to n
+Code:
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		for(int i = 1; i<=n; i++){
+		    if (i % 2 == 0){
+		    System.out.println(i);
+		    }
+		}
+	}
+}
+
+Output:
+10
+2
+4
+6
+8
+10
+
+question 4
+Factorial of the given number
+Code:
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		int fact = 1;
+		for(int i = 1; i<=n; i++) {
+		    fact = fact*i;
+		}
+		System.out.println(fact);
+	}
+}
+
+Output
+5
+120
+
+question 5
+To print the 7 table
+Code:
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		int n = 7;
+		for (int i =1; i <= 10 ;i++) {
+		    System.out.println(n + "x" + i + "=" + (n * i));
+		}
+	}
+}   
+Output:
+7x1=7
+7x2=14
+7x3=21
+7x4=28
+7x5=35
+7x6=42
+7x7=49
+7x8=56
+7x9=63
+7x10=70                                                                   
